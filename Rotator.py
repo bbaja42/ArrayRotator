@@ -36,7 +36,7 @@ test_array_even = array('l', [1, 2, 3, 4, 5, 6])
 
 
 def test_inverse():
-    print "Inverse method testing"
+    print ("Inverse method testing")
     
     # Testing no change
     sample = array('l', [1, 2, 3, 4, 5])
@@ -64,7 +64,7 @@ def test_inverse():
     assert sample == array('l', [6, 5, 4, 3, 2, 1])
 
 def test_rotation_left():
-    print "Rotation method testing"
+    print ("Rotation method testing")
     
     # Testing no change
     sample = array('l', [1, 2, 3, 4, 5])
@@ -94,3 +94,4 @@ def test_rotation_left():
     
 test_inverse()
 test_rotation_left()
+print ("Tested Array Rotator")
